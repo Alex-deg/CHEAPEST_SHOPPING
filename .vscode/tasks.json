@@ -14,7 +14,9 @@
                 "-I/usr/include/x86_64-linux-gnu/curl",
                 "-I/usr/include/libxml2",
                 "-L/usr/lib/x86_64-linux-gnu",
-                "-lxml2"
+                "-lxml2",
+                "-lnlohmann",
+                "-I//usr/include/nlohmann"
             ],
             "options": {
                 "cwd": "${fileDirname}"
